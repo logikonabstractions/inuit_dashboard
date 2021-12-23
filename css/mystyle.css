@@ -9,3 +9,7 @@
 .chart-area {
     height: auto;
 }
+
+h1 {
+    color: var(--primarydark);
+}

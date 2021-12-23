@@ -18,7 +18,7 @@
         rel="stylesheet">
 
     <!-- Custom styles for this template-->
-    <link href="css/sb-admin-2.min.css" rel="stylesheet">
+    <link href="css/sb-admin-2.css" rel="stylesheet">
     <link href="css/mystyle.css" rel="stylesheet">
 
 </head>
@@ -33,8 +33,8 @@
 
             <!-- Sidebar - Brand -->
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
-                <div class="sidebar-brand-icon rotate-n-15">
-                    <i class="fas fa-laugh-wink"></i>
+                <div class="sidebar-brand-icon">
+                    <i class="fas fa-icicles"></i>
                 </div>
                 <div class="sidebar-brand-text mx-3"></div>
             </a>
@@ -45,14 +45,9 @@
             <!-- Nav Item - Dashboard -->
             <li class="nav-item active">
                 <a class="nav-link" href="index.html">
-                    <i class="fas fa-fw fa-tachometer-alt"></i>
-                    <span>Dashboard</span>
+                    <i class="fas fa-external-link-alt"></i>
+                    <span>Link to somewhere</span>
                 </a>
-                <a class="nav-link" href="my_index.html">
-                    <i class="fas fa-fw fa-tachometer-alt"></i>
-                    <span>My Index</span>
-                </a>
-
             </li>
 
             <!-- Divider -->
@@ -60,7 +55,7 @@
 
             <!-- Heading -->
             <div class="sidebar-heading">
-                Interface
+                Sections for later
             </div>
 
             <!-- Nav Item - Pages Collapse Menu -->
@@ -68,36 +63,17 @@
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
                     aria-expanded="true" aria-controls="collapseTwo">
                     <i class="fas fa-fw fa-cog"></i>
-                    <span>Components</span>
+                    <span>More options</span>
                 </a>
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <h6 class="collapse-header">Custom Components:</h6>
-                        <a class="collapse-item" href="buttons.html">Buttons</a>
-                        <a class="collapse-item" href="cards.html">Cards</a>
+                        <h6 class="collapse-header">Display options</h6>
+                        <a class="collapse-item" href="">Options #1</a>
+                        <a class="collapse-item" href="">Options #2</a>
+                        <a class="collapse-item" href="">etc... </a>
                     </div>
                 </div>
             </li>
-
-            <!-- Nav Item - Utilities Collapse Menu -->
-            <li class="nav-item">
-                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities"
-                    aria-expanded="true" aria-controls="collapseUtilities">
-                    <i class="fas fa-fw fa-wrench"></i>
-                    <span>Utilities</span>
-                </a>
-                <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities"
-                    data-parent="#accordionSidebar">
-                    <div class="bg-white py-2 collapse-inner rounded">
-                        <h6 class="collapse-header">Custom Utilities:</h6>
-                        <a class="collapse-item" href="utilities-color.html">Colors</a>
-                        <a class="collapse-item" href="utilities-border.html">Borders</a>
-                        <a class="collapse-item" href="utilities-animation.html">Animations</a>
-                        <a class="collapse-item" href="utilities-other.html">Other</a>
-                    </div>
-                </div>
-            </li>
-
 
             <!-- Divider -->
             <hr class="sidebar-divider d-none d-md-block">
@@ -117,13 +93,26 @@
             <div id="content">
                 <!-- Begin Page Content -->
                 <div class="container-fluid">
+                    <div class="text-center">
+                        <h1>Inuit community - ice sheet data dashboard</h1>
+                    </div>
                     <div class="grid-container">
                         <div class="row">
-                            <div class="col">
+                            <div class="col text-center">
+                                <div class="dropdown p-2">
+                                    <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Ice Thickness (inches)
+                                    </button>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                        <button class="dropdown-item" type="button">Ice Thickness</button>
+                                        <button class="dropdown-item" type="button">Other measure (units)...</button>
+                                    </div>
+                                </div>
+
                                 <!-- Area Chart -->
                                 <div class="card shadow mb-4">
                                     <div class="card-header py-3">
-                                        <h6 class="m-0 font-weight-bold text-primary">Station inuit-dashboard</h6>
+                                        <h6 class="m-0 font-weight-bold text-primary">Station coherent lavoisier</h6>
                                     </div>
                                     <div class="card-body">
                                         <div class="chart-area">
@@ -134,7 +123,16 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col">
+                            <div class="col text-center">
+                                <div class="dropdown p-2">
+                                    <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Ice Thickness (inches)
+                                    </button>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                        <button class="dropdown-item" type="button">Ice Thickness</button>
+                                        <button class="dropdown-item" type="button">Other measure (units)...</button>
+                                    </div>
+                                </div>
                                 <!-- Area Chart -->
                                 <div class="card shadow mb-4">
                                     <div class="card-header py-3">
@@ -149,8 +147,16 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col">
-                                <!-- Area Chart -->
+                            <div class="col text-center">
+                                <div class="dropdown p-2">
+                                    <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Ice Thickness (inches)
+                                    </button>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                        <button class="dropdown-item" type="button">Ice Thickness</button>
+                                        <button class="dropdown-item" type="button">Other measure (units)...</button>
+                                    </div>
+                                </div>                                <!-- Area Chart -->
                                 <div class="card shadow mb-4">
                                     <div class="card-header py-3">
                                         <h6 class="m-0 font-weight-bold text-primary">Station elated fermi</h6>
@@ -164,8 +170,16 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col">
-                                <!-- Area Chart -->
+                            <div class="col text-center">
+                                <div class="dropdown p-2">
+                                    <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Ice Thickness (inches)
+                                    </button>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                        <button class="dropdown-item" type="button">Ice Thickness</button>
+                                        <button class="dropdown-item" type="button">Other measure (units)...</button>
+                                    </div>
+                                </div>                                <!-- Area Chart -->
                                 <div class="card shadow mb-4">
                                     <div class="card-header py-3">
                                         <h6 class="m-0 font-weight-bold text-primary">Station silly wright</h6>
@@ -179,8 +193,16 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col">
-                                <!-- Area Chart -->
+                            <div class="col text-center">
+                                <div class="dropdown p-2">
+                                    <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Ice Thickness (inches)
+                                    </button>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                        <button class="dropdown-item" type="button">Ice Thickness</button>
+                                        <button class="dropdown-item" type="button">Other measure (units)...</button>
+                                    </div>
+                                </div>                                <!-- Area Chart -->
                                 <div class="card shadow mb-4">
                                     <div class="card-header py-3">
                                         <h6 class="m-0 font-weight-bold text-primary">Station hopeful khorana</h6>
@@ -194,8 +216,16 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col">
-                                <!-- Area Chart -->
+                            <div class="col text-center">
+                                <div class="dropdown p-2">
+                                    <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Ice Thickness (inches)
+                                    </button>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                        <button class="dropdown-item" type="button">Ice Thickness</button>
+                                        <button class="dropdown-item" type="button">Other measure (units)...</button>
+                                    </div>
+                                </div>                                <!-- Area Chart -->
                                 <div class="card shadow mb-4">
                                     <div class="card-header py-3">
                                         <h6 class="m-0 font-weight-bold text-primary">Station pedantic curie</h6>
