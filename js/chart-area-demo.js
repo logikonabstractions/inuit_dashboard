@@ -50,10 +50,10 @@ function generate_random_thickness_dates() {
     datetimes.push(luxon.DateTime.utc(2021, 12, i, 12, 30));
     if (i>20){
       offset = 3*random_offset + random_offset;
-      range = 1;
+      range = 0.5;
     } else {
       offset = i/5 + random_offset;
-      range = 2
+      range = 1
     }
     ice_thick_array.push(random_thickness(offset, range));
   }
@@ -67,10 +67,10 @@ for (let i = 1; i < 30; i++) {
   datetimes.push(luxon.DateTime.utc(2021, 12, i, 12, 30));
   if (i>20){
     offset = 4;
-    range = 1;
+    range = 0.5;
   } else {
     offset = i/5;
-    range = 2
+    range = 1
   }
   ice_thick.push(random_thickness(offset, range));
 }
