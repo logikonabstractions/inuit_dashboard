@@ -49,7 +49,7 @@ function generate_random_thickness_dates() {
     let range;
     datetimes.push(luxon.DateTime.utc(2021, 12, i, 12, 30));
     if (i>20){
-      offset = 3*random_offset + random_offset;
+      offset = 4 + random_offset;
       range = 0.5;
     } else {
       offset = i/5 + random_offset;
