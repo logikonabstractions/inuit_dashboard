@@ -88,7 +88,7 @@ function get_dummy_data(){
   for (let i = 0; i < datetimes.length; i++) {
     data.push({x:datetimes[i], y:thickness[i]})
   }
-  return {labels: datetimes_isos, datasets: [{data: data}]}
+  return {labels: datetimes_isos, datasets: [{data: data, borderColor: '#333'}]}
 }
 
 
